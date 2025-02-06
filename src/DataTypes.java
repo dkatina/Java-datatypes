@@ -12,5 +12,8 @@ public class DataTypes {
         //Declaration and Assignment at the same time
         int age = 10;
         String name = "Dylan";
+
+        //Multi declaration (comma separated), this requires elements to be the same type;
+        int num1, num2, num3, num4;
     }
 }
