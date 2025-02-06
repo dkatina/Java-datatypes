@@ -16,7 +16,7 @@ public class DataTypes {
         //Multi declaration (comma separated), this requires elements to be the same type;
         int num1, num2, num3, num4;
 
-        int intExp = 2_147_483_647; //don't need underscores to serve as commas
+        int intExp = 2_147_483_647; //don't need underscores to serve as commas, MOST COMMON
         byte smallInt = 127;
         short medInt = 30000;
         long hugeInt = 3000000000L; //need to specify Long ints with 'L'
@@ -26,5 +26,21 @@ public class DataTypes {
 
         char c = 'A'; //single character requires single ' '
         boolean testBool = true; // lower case value
+
+
+        //Naming Rules
+        // valid
+//        userName
+//        price_2024
+//        number1
+//        totalAmount$
+//        isValidFlag
+//
+//        invalid
+//        1stNumber // Cannot begin with a number
+//        final // final is a reserved keyword
+//        user-name // Hyphen (-) is not allowed
+//        user@name // @ is not allowed
+
     }
 }
