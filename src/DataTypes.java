@@ -1,8 +1,12 @@
 public class DataTypes {
-    public static void main(String[] args) {
-        int num1 = 0;
-        int num2;
-        // System.out.println(num2); not initialized
 
+    public static int addNumber(int x){
+        int y = 2; //local to addNum
+        return x + y; //returning int type
+    }
+
+    public static void main(String[] args) {
+        addNumber(3);
+        //System.out.println(y); //y is outside the scope it was defined in.
     }
 }
