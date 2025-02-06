@@ -15,5 +15,16 @@ public class DataTypes {
 
         //Multi declaration (comma separated), this requires elements to be the same type;
         int num1, num2, num3, num4;
+
+        int intExp = 2_147_483_647; //don't need underscores to serve as commas
+        byte smallInt = 127;
+        short medInt = 30000;
+        long hugeInt = 3000000000L; //need to specify Long ints with 'L'
+
+        float deci = 3.14f; //require lower case 'f'
+        double veryPrecise = 3.14157265358979;
+
+        char c = 'A'; //single character requires single ' '
+        boolean testBool = true; // lower case value
     }
 }
