@@ -13,5 +13,7 @@ public class SimpleScannerExercise {
 
         System.out.println("your name: " + name);
         System.out.println("your age: " + age);
+
+        scanner.close();
     }
 }
